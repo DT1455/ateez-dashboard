@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 import nltk
-from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 url = 'https://github.com/DT1455/ateez-dashboard/blob/main/ateez.csv?raw=true'
 df = pd.read_csv(url,
