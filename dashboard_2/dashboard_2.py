@@ -31,6 +31,7 @@ df['lyrics_no_stopwords'] = df['lyrics'].apply(lambda x: [item for item in str(x
 app = Dash(external_stylesheets=[dbc.themes.CYBORG],
            meta_tags=[{'name': 'viewport',
                        'content': 'width=device-width, initial-scale=1.0'}])
+server = app.server
 
 # ATEEZ logo card
 ateez = dbc.Card([
