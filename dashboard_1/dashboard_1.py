@@ -35,6 +35,7 @@ app = Dash(external_stylesheets=[dbc.themes.CYBORG],
                 'name': 'viewport',
                 'content': 'width=device-width, initial-scale=1.0'
            }])
+server = app.server
 
 # ATEEZ logo card
 ateez = dbc.Card([
