@@ -14,6 +14,7 @@ from datetime import datetime
 from datetime import date
 
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 url = 'https://github.com/DT1455/ateez-dashboard/blob/main/ateez.csv?raw=true'
