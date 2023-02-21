@@ -1,7 +1,7 @@
 dash
 dash_bootstrap_components
 matplotlib
-nltk
+nltk==3.8.1
 pandas
 plotly
 wordcloud
