@@ -178,7 +178,7 @@ app.layout = dbc.Container([
                      ])
                  ]),
                  dbc.Row([
-                     html.H4("Word cloud of song's lyrics",
+                     html.H4("Word cloud of lyrics",
                              className="card-title text-center text-warning bg-grey py-4"),
                      dbc.Col(
                          dbc.Card(card_num, color='black'), width="auto")
